@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="137.891685">
+    <testcase classname="Free CRM Add New Contact" name="Free CRM Add New Contact Test Scenario" time="30.079351">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "Jayas152" and "vraj2210"..................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user click on the NewContact...........................................passed
+Then user enters for  NewContact "Anil" "Kumble" "Sahara" and "India".......passed
+Then user click on save button..............................................passed
+Then user verify Contact....................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Add New Contact" name="Free CRM Add New Contact Test Scenario 2" time="27.880988">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "Jayas152" and "vraj2210"..................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user click on the NewContact...........................................passed
+Then user enters for  NewContact "Anushka" "Kohli" "Bcci" and "Canada"......passed
+Then user click on save button..............................................passed
+Then user verify Contact....................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Add New Contact" name="Free CRM Add New Contact Test Scenario 3" time="26.486582">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "Jayas152" and "vraj2210"..................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user click on the NewContact...........................................passed
+Then user enters for  NewContact "Rohit" "Sharma" "Icci" and "Usa"..........passed
+Then user click on save button..............................................passed
+Then user verify Contact....................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Add New Contact" name="Free CRM Add New Contact Test Scenario 4" time="26.520351">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "Jayas152" and "vraj2210"..................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user click on the NewContact...........................................passed
+Then user enters for  NewContact "Virat" "Kohli" "Bcci" and "Canada"........passed
+Then user click on save button..............................................passed
+Then user verify Contact....................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Free CRM Add New Contact" name="Free CRM Add New Contact Test Scenario 5" time="26.924413">
+        <system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "Jayas152" and "vraj2210"..................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then user click on the NewContact...........................................passed
+Then user enters for  NewContact "Surya" "Yadav" "Acci" and "Austrialia"....passed
+Then user click on save button..............................................passed
+Then user verify Contact....................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
