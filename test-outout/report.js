@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/jayas/Desktop/Selenium_WorkSpace/FreeCRMBDDFrameWorkJayas/src/main/java/Features/Deals.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/jayas/Desktop/Selenium_WorkSpace/FreeCRMBDDFrameWorkJayas/src/main/java/Features/DealMap.feature");
 formatter.feature({
   "line": 1,
   "name": "Free CRM Deal Test",
@@ -30,33 +30,50 @@ formatter.step({
   "rows": [
     {
       "cells": [
+        "username",
+        "password"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
         "Jayas152",
         "vraj2210"
       ],
-      "line": 7
+      "line": 8
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user clicks on login button",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 9,
+  "line": 10,
   "name": "user is on home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "user click on the NewDeal",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 11,
-  "name": "user enters for  NewDeal #Title Company Amount Probability Commission",
+  "line": 12,
+  "name": "user enters for  NewDeal",
   "rows": [
+    {
+      "cells": [
+        "Title",
+        "Company",
+        "Amount",
+        "Probability",
+        "Commission"
+      ],
+      "line": 13
+    },
     {
       "cells": [
         "BDD Deal",
@@ -65,94 +82,110 @@ formatter.step({
         "95",
         "15"
       ],
-      "line": 12
+      "line": 14
+    },
+    {
+      "cells": [
+        "POM Deal",
+        "JG",
+        "75000",
+        "90",
+        "10"
+      ],
+      "line": 15
+    },
+    {
+      "cells": [
+        "JAVA Deal",
+        "BP",
+        "85000",
+        "100",
+        "20"
+      ],
+      "line": 16
+    },
+    {
+      "cells": [
+        "Selinium Deal",
+        "VD",
+        "95000",
+        "80",
+        "25"
+      ],
+      "line": 17
     }
   ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 13,
-  "name": "user click on save button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": "user verify Deal",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 15,
+  "comments": [
+    {
+      "line": 18,
+      "value": "#\tThen user click on save button"
+    },
+    {
+      "line": 19,
+      "value": "#\tThen user verify Deal"
+    }
+  ],
+  "line": 20,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DealsStepDefination.user_already_on_login_page()"
+  "location": "DealsMapStepDefination.user_already_on_login_page()"
 });
 formatter.result({
-  "duration": 8370953166,
+  "duration": 8783709208,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.title_of_login_page_is_free_CRM()"
+  "location": "DealsMapStepDefination.title_of_login_page_is_free_CRM()"
 });
 formatter.result({
-  "duration": 9046583,
+  "duration": 9687375,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.user_enters_username_and_password1(DataTable)"
+  "location": "DealsMapStepDefination.user_enters_username_and_password1(DataTable)"
 });
 formatter.result({
-  "duration": 92797959,
+  "duration": 83988250,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.user_clicks_on_login_button()"
+  "location": "DealsMapStepDefination.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 9870766333,
+  "duration": 10349398042,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.user_is_on_hopme_page()"
+  "location": "DealsMapStepDefination.user_is_on_hopme_page()"
 });
 formatter.result({
-  "duration": 3015854667,
+  "duration": 3015736916,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.user_click_on_the_NewDeal()"
+  "location": "DealsMapStepDefination.user_click_on_the_NewDeal()"
 });
 formatter.result({
-  "duration": 4336673708,
+  "duration": 4027988375,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.user_enters_for_NewDeal_Title_Company_Amount_Probability_Commission(DataTable)"
+  "location": "DealsMapStepDefination.user_enters_for_NewDeal_Title_Company_Amount_Probability_Commission(DataTable)"
 });
 formatter.result({
-  "duration": 89121583,
+  "duration": 35586662250,
   "status": "passed"
 });
 formatter.match({
-  "location": "DealsStepDefination.user_click_on_save_button()"
+  "location": "DealsMapStepDefination.close_the_browser()"
 });
 formatter.result({
-  "duration": 4647665542,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealsStepDefination.user_verify_Deal()"
-});
-formatter.result({
-  "duration": 27803667,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealsStepDefination.close_the_browser()"
-});
-formatter.result({
-  "duration": 466873542,
+  "duration": 521715541,
   "status": "passed"
 });
 });

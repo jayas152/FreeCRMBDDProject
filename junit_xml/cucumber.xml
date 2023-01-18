@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.927557">
-    <testcase classname="Free CRM Deal Test" name="Add New Deal Data By DataTable" time="30.927557">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="62.378886">
+    <testcase classname="Free CRM Deal Test" name="Add New Deal Data By DataTable" time="62.378886">
         <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters username and password......................................passed
 Then user clicks on login button............................................passed
 Then user is on home page...................................................passed
 Then user click on the NewDeal..............................................passed
-Then user enters for  NewDeal #Title Company Amount Probability Commission..passed
-Then user click on save button..............................................passed
-Then user verify Deal.......................................................passed
+Then user enters for  NewDeal...............................................passed
 Then Close the browser......................................................passed
 ]]></system-out>
     </testcase>
